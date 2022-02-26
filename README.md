@@ -1,17 +1,28 @@
-# Rocket-Elevators-Javascript-Controller
-This is the template to use for the javascript residential controller. You will find the classes that should be used along with some methods described in the requirements.
-The necessary files to run some tests are also present. With Node JS and NPM installed, first run:
+The purpose of this code is to make a simple, yet effective controller for an elevator. enjoy (:
 
-`npm install`
 
-and then, to run the tests:
+Imagine it, youre in a fancy building and you want to go to the top. Thrilling. You, the user, go up to the frame and press one of two buttons, "up" or "down are your choices.
+Whatever your choice was, the column will control the elevator to go to your location, and to add it to a queue. The doors open, you step inside and you are greeted by buttons.
+These buttons are for you to choose the floor youd like to go to. You choose one, and the doors close. The column then controlls the elevator to go in the direction you requested.
+You start going in that direction and soon, the elevator is set to "stopped". The doors open for you, and then they close behind you as you step out. You just rode the best elevator in existence.
+youre welcome.
 
-`npm test`
+Column selection is based on user input.
+Elevator selection is based on user input.
+Elevator moves and stops based on column control.
+Elevator is able to have multiple queues.
+Elevator moves at incredible speeds.
+Elevator has door and button options.
+Floors have button options to go different directions.
 
-With a fully completed project, you should get an output like:
 
-![Screenshot from 2021-06-10 16-31-36](https://user-images.githubusercontent.com/28630658/121592985-5edd2600-ca09-11eb-9ff0-38215b74c67c.png)
+To be able to try the program, you need:
+Javascript/Js.node
+Visual Studio Code
 
-All of these files can be left in your final project but no scenarios should be present in your code. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!
+To use the program, you need to type:
+In git bash/ Powershell
+Type: jest
+## Example
+//////in gitbash terminal/////
+jest
